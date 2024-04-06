@@ -1,0 +1,54 @@
+.row video {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+.icon {
+    width: 10%;
+}
+h2 {
+    font-size: 1.1rem;
+}
+.boder-header {
+    position: absolute;
+    display: flex;
+    margin-top: 10%;
+    width: 80%;
+}
+.border-top {
+    background: white;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.border-top:first-child {
+    margin-right: 1rem;
+}
+
+.border-top::after {
+    background: white;
+    transform: scaleX(-1);
+    right: 0;
+    left: auto;
+}
+.desktop {
+    display: none;
+}
+.mobile {
+    display: flex;
+}
+.mobile video {
+    height: 76px;
+}
+@media screen and (min-width: 1240px) {
+    .desktop {
+        display: flex;
+    }
+    .mobile {
+        display: none;
+    }
+}

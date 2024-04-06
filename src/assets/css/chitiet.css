@@ -1,0 +1,57 @@
+.mt-7rem {
+    margin-top: 7rem !important;
+}
+.title {
+    float: left;
+    text-align: left;
+    margin-right: 1rem;
+}
+.info {
+    float: left;
+    text-align: left;
+}
+.button-chitiet {
+    display: grid;
+    margin-left: 12rem;
+}
+.p-15px {
+    padding: 15px;
+}
+.mo-ta-chi-tiet {
+    text-align: center;
+    margin-top: 1rem;
+    background: var(--SecondaryColor);
+    width: 15%;
+    padding: 10px;
+    border-radius: 14px 14px 0px 0px;
+    color: white;
+    font-weight: 600;
+}
+.huong-dan-cai-dat {
+    text-align: center;
+    margin-top: 1rem;
+    background: var(--SecondaryColor);
+    width: 20%;
+    padding: 10px;
+    border-radius: 14px 14px 0px 0px;
+    color: white;
+    font-weight: 600;
+}
+.border-mo-ta {
+    height: auto;
+    min-height: 300px;
+    margin-bottom: 1rem;
+    border: 1px solid var(--SecondaryColor);
+    display: block;
+}
+.thong-tin-mo-ta {
+    width: 100%;
+    background: none;
+    min-width: 250px;
+    height: auto;
+    border: none;
+    resize: none;
+}
+.thong-tin-mo-ta ::-webkit-resizer {
+    display: none; /* Ẩn nút thay đổi độ rộng mặc định trong Chrome và các trình duyệt dùng nhân WebKit khác */
+}
