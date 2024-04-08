@@ -22,7 +22,7 @@ const Navbar = () => {
                 <header className="header flex">
                     <div className="logoDiv">
                         <a href="#" className="logo flex">
-                            <a class="navbar-brand" href="#">
+                            <a class="navbar-brand" href="/">
                                 <img className="logo" src={logo} alt="" />
                             </a>
                         </a>
@@ -36,7 +36,8 @@ const Navbar = () => {
                                 </a>
                             </li>
                             <li className="navItem">
-                                <a href="#" className="navLink">
+                                <Link to={`/`}></Link>
+                                <a href="/BaiViet/" className="navLink">
                                     BÀI VIẾT
                                 </a>
                             </li>
@@ -51,9 +52,11 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li className="navItem">
-                                <a href="#" className="navLink">
-                                    BẢNG GIÁ
-                                </a>
+                                <Link to={`/BangGia/`}>
+                                    <a className="navLink">
+                                        BẢNG GIÁ
+                                    </a>
+                                </Link>
                             </li>
                             <button className="btn">
                                 <a href="#">ĐĂNG NHẬP</a>

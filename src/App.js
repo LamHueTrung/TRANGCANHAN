@@ -13,8 +13,28 @@ import ShopWeb from './pages/Shop/index';
 import ChiTietDonHang from './pages/Shop/Components/ChiTiet';
 import ThanhToanDonHang from './pages/Shop/Components/ThanhToan';
 import ThietKeWeb from './pages/Shop/Components/ThietKeWeb';
+import BangGia from './pages/Shop/Components/BangGia';
+import Story from './pages/Story/Home';
+import ChiTietStory from './pages/Story/ChiTiet';
+import ChiTietVideoStory from './pages/Story/Video';
 
 const router = createBrowserRouter([
+    {
+        path: '/BaiViet/ChitietVideo/:slug',
+        element: <ChiTietVideoStory />,
+    },
+    {
+        path: '/BaiViet/Chitiet/:slug',
+        element: <ChiTietStory />,
+    },
+    {
+        path: '/BaiViet/',
+        element: <Story />,
+    },
+    {
+        path: '/BangGia/',
+        element: <BangGia />,
+    },
     {
         path: '/ShopWeb/',
         element: <ShopWeb />,

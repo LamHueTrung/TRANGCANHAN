@@ -1,18 +1,45 @@
 .mt-7rem {
     margin-top: 7rem !important;
 }
+.bang-gia {
+    font-size: 1.8rem;
+    font-style: normal;
+    color: var(--PrimaryColor);
+    font-weight: bold;
+}
+.icon {
+    width: 6%;
+    margin-right: 5px;
+    font-weight: 100;
+    color: var(--SecondaryColor);
+}
 .title {
-    float: left;
+    font-size: 1.2rem;
+    color: var(--PrimaryColor);
+    font-weight: 600;
+    float: none;
+    text-align: center; 
+    margin-right: 0;
+}
+.lance {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--bs-danger);
+}
+.chuc-nang {
     text-align: left;
-    margin-right: 1rem;
+}
+.chu-thich {
+    color: var(--PrimaryColor);
+    font-weight: 600;
+    font-style: italic;
 }
 .info {
     float: left;
     text-align: left;
 }
 .button-chitiet {
-    display: grid;
-    margin-left: 12rem;
+    float: left;
 }
 .p-15px {
     padding: 15px;
@@ -21,7 +48,7 @@
     text-align: center;
     margin-top: 1rem;
     background: var(--SecondaryColor);
-    width: 15%;
+    width: 20%;
     padding: 10px;
     border-radius: 14px 14px 0px 0px;
     color: white;
@@ -39,21 +66,21 @@
 }
 .border-mo-ta {
     height: auto;
-    min-height: 300px;
+    min-height: 260px;
     margin-bottom: 1rem;
     border: 1px solid var(--SecondaryColor);
     display: block;
 }
-.thong-tin-mo-ta {
+.thong-tin-mo-ta-dat-hang {
     width: 100%;
     background: none;
     min-width: 250px;
-    height: 100%;
+    height: 500px;
     border: none;
     resize: none;
-    overflow: auto;
-    white-space: pre-wrap;
-    line-height: normal;
+}
+.mh-175px {
+    min-height: 175px !important;
 }
 .thong-tin-mo-ta ::-webkit-resizer {
     display: none; /* Ẩn nút thay đổi độ rộng mặc định trong Chrome và các trình duyệt dùng nhân WebKit khác */

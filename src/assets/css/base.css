@@ -16,6 +16,12 @@
     --cardBG: rgb(225, 225, 235);
     --cardHover: rgb(225, 225, 235);
 }
+.w-15 {
+    width: 15% !important;
+}
+.w-30 {
+    width: 30% !important;
+}
 .w-70 {
     width: 70% !important;
 }
@@ -33,6 +39,15 @@
 }
 .w-95 {
     width: 95% !important;
+}
+.mt-3 {
+    margin-top: 1.5rem !important;
+}
+.mt-7 {
+    margin-top: 3.5rem !important;
+}
+.pd-005 {
+    padding-top: 5% !important;
 }
 .mr-4 {
     margin-right: 0.5rem !important;
@@ -74,4 +89,11 @@ textarea:focus {
     color: var(--PrimaryColor) !important;
     font-style: italic;
     font-weight: bold;
+}
+textarea {
+    white-space: pre-wrap;
+}
+@keyframes left-right {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }

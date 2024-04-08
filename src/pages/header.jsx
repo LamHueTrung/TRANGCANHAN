@@ -37,9 +37,11 @@ function Header() {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">
-                                BÀI VIẾT
-                            </a>
+                            <Link to={`/BaiViet/`}>
+                                <a class="nav-link text-white" href="#">
+                                    BÀI VIẾT
+                                </a>
+                            </Link>
                         </li>
                         <li class="nav-item">
                             <Link to={`/ShopWeb/`}>
@@ -49,12 +51,14 @@ function Header() {
                             </Link>
                         </li>
                         <li class="nav-item">
-                            <a
-                                class="nav-link disabled text-white"
-                                aria-disabled="true"
-                            >
-                                BẢNG GIÁ
-                            </a>
+                            <Link to={`/BangGia/`}>
+                                <a
+                                    class="nav-link text-white"
+                                    aria-disabled="true"
+                                >
+                                    BẢNG GIÁ
+                                </a>
+                            </Link>
                         </li>
                         <li class="nav-item">
                             <a
